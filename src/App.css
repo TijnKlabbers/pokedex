@@ -1,0 +1,156 @@
+.flying-type {
+  background-color: #7c93e5;
+}
+.flying-color {
+  color: #7186d0;
+}
+
+.poison-type {
+  background-color: #e090f8;
+}
+.poison-color {
+  color: #cc83e1;
+}
+.fire-type {
+  background-color: #fc6c6d;
+}
+.fire-color {
+  color: #e56263;
+}
+.grass-type {
+  background-color: #49d0b0;
+}
+.grass-color {
+  color: #42bda0;
+}
+.water-type {
+  background-color: #70b6f9;
+}
+.water-color {
+  color: #66a5e2;
+}
+.bug-type {
+  background-color: #a0c888;
+}
+.bug-color {
+  color: #91b67c;
+}
+.normal-type {
+  background-color: #bcbdaf;
+}
+.normal-color {
+  color: #abac9f;
+}
+.electric-type {
+  background-color: #fcd46e;
+}
+.electric-color {
+  color: #e5c164;
+}
+.ground-type {
+  background-color: #e0c068;
+}
+.ground-color {
+  color: #ccaf5f;
+}
+.fairy-type {
+  background-color: #ff65d5;
+}
+.fairy-color {
+  color: #e85cc2;
+}
+.psychic-type {
+  background-color: #f838a8;
+}
+.psychic-color {
+  color: #e13399;
+}
+.fighting-type {
+  background-color: #f87070;
+}
+.fighting-color {
+  color: #e16666;
+}
+.rock-type {
+  background-color: #b8a038;
+}
+.rock-color {
+  color: #a79133;
+}
+.ghost-type {
+  background-color: #705898;
+}
+.ghost-color {
+  color: #66508a;
+}
+.ice-type {
+  background-color: #98d8d8;
+}
+.ice-color {
+  color: #8ac4c4;
+}
+.dragon-type {
+  background-color: #7038f8;
+}
+.dragon-color {
+  color: #6633e1;
+}
+.card::before {
+  width: 152px;
+  height: 152px;
+  content: "";
+  bottom: -22px;
+  right: -19px;
+  position: absolute;
+  background-image: url(../src/assets/pokemon2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+  z-index: 1;
+}
+.nav::after {
+  width: 600px;
+  height: 600px;
+  content: "";
+  top: -192px;
+  right: -219px;
+  position: absolute;
+  background-image: url(../src/assets/POKEMBOL.svg);
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.type {
+  background-color: #ffffff38;
+}
+
+.searchbar {
+  background-color: #f6f6f6;
+}
+
+.type-filter {
+  border-radius: 65px;
+  background-color: #f6f6f6;
+}
+.card img {
+  width: 43%;
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  top: 64px;
+  left: 157px;
+}
+
+body {
+  overflow-x: hidden;
+}
+.searchbar_block {
+  padding: 4%;
+
+  border-radius: 20px;
+}
+
+.position {
+  top: 8px;
+  right: 17px;
+}

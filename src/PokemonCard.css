@@ -1,0 +1,52 @@
+.background {
+  position: relative;
+  height: 100vh;
+}
+.specific_pokemon_img {
+  position: absolute;
+  top: 26%;
+  left: 38%;
+  z-index: 2;
+  width: 24%;
+}
+.specific_pokemon_top {
+  height: 50%;
+  width: 100%;
+  position: relative;
+}
+.specific_pokemon_bottom {
+  height: 50%;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 16% 16% 0 0;
+}
+.arrow_left {
+  font-size: 60px;
+  color: white;
+}
+.specific_buttons {
+}
+.specific_button {
+  background-color: #ffffff38;
+  color: white;
+  border-radius: 20px;
+}
+.specific_category {
+  background-color: red;
+}
+.specific_pokemon_top:before {
+  width: 350px;
+  height: 350px;
+  content: "";
+  bottom: -48px;
+  left: 41%;
+  position: absolute;
+  background-image: url(../src/assets/pokemon2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+  z-index: 1;
+}
+.specific_nav {
+  border-color: rgb(236, 235, 235);
+}
